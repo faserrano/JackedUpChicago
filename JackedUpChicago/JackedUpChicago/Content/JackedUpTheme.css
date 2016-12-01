@@ -1,3 +1,10 @@
-﻿.navbar-inverse{
+﻿.navbar-header{
     background-color: #96C6D8;
+    border-color: #96C6D8;
+ 
 }
+.jumbotron{
+    padding-top:200px;
+}
+
+
