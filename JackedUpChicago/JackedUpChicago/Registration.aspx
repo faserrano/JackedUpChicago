@@ -36,10 +36,12 @@
         <br />
 
         <asp:Label ID="lblPhoneNum" runat="server" Text="Phone Number:"></asp:Label>
-        <asp:TextBox ID="txtPhoneNum" runat="server" TextMode="Phone" placeholder="(999) 999-9999"></asp:TextBox>
+        <asp:TextBox ID="txtPhoneNum" runat="server" TextMode="Phone" CssClass="phoneNum" placeholder="(999) 999-9999"></asp:TextBox>
         <asp:RequiredFieldValidator ID="reqValPhoneNum" runat="server" ControlToValidate="txtPhoneNum" ErrorMessage="Field is required." ForeColor="Red"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="regExpPhone" runat="server" ErrorMessage="Please enter a valid U.S. Phone Number in the format (999) 999-9999" ForeColor="Red" ControlToValidate="txtPhoneNum" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"></asp:RegularExpressionValidator>
         <br />
 
         <asp:Button ID="btnSubmit" runat="server" Text="Submit" autopostback="true" />
+
+        
 </asp:Content>
