@@ -5,7 +5,8 @@
 
 
     <asp:Label ID="Label1" runat="server" Text="Products"></asp:Label>
-    :<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [product_name], [product_description], [product_size], [product_price] FROM [products]"></asp:SqlDataSource>
+    :
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [product_name], [product_description], [product_size], [product_price] FROM [products]"></asp:SqlDataSource>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
         <Columns>
             <asp:BoundField DataField="product_name" HeaderText="product_name" SortExpression="product_name" />
