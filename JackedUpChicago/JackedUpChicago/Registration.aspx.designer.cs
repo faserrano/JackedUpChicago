@@ -31,15 +31,6 @@ namespace JackedUpChicago {
         protected global::System.Web.UI.WebControls.TextBox txtFName;
         
         /// <summary>
-        /// reqValFName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValFName;
-        
-        /// <summary>
         /// lblLName control.
         /// </summary>
         /// <remarks>
@@ -56,15 +47,6 @@ namespace JackedUpChicago {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLName;
-        
-        /// <summary>
-        /// reqValLName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValLName;
         
         /// <summary>
         /// lblEmail control.
@@ -85,24 +67,6 @@ namespace JackedUpChicago {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
-        /// <summary>
-        /// regExpEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator regExpEmail;
-        
-        /// <summary>
         /// lblUsername control.
         /// </summary>
         /// <remarks>
@@ -119,15 +83,6 @@ namespace JackedUpChicago {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtUsername;
-        
-        /// <summary>
-        /// reqValUserName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUserName;
         
         /// <summary>
         /// lblPassword control.
@@ -148,15 +103,6 @@ namespace JackedUpChicago {
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
-        /// reqValPass control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPass;
-        
-        /// <summary>
         /// lblConfirmPassword control.
         /// </summary>
         /// <remarks>
@@ -175,24 +121,6 @@ namespace JackedUpChicago {
         protected global::System.Web.UI.WebControls.TextBox txtConfirmPassword;
         
         /// <summary>
-        /// reqValConfPass control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValConfPass;
-        
-        /// <summary>
-        /// compValPassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator compValPassword;
-        
-        /// <summary>
         /// lblPhoneNum control.
         /// </summary>
         /// <remarks>
@@ -209,24 +137,6 @@ namespace JackedUpChicago {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPhoneNum;
-        
-        /// <summary>
-        /// reqValPhoneNum control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPhoneNum;
-        
-        /// <summary>
-        /// regExpPhone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator regExpPhone;
         
         /// <summary>
         /// btnSubmit control.
