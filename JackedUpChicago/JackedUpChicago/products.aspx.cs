@@ -12,6 +12,16 @@ namespace JackedUpChicago
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["userType"] != null)
+            {
+                if (Session["userType"].ToString() == "Admin")
+                {
+                    lblAdminProductLink.Visible = true;
+                    
+                }
+            }
+            
+            
             SqlConnection connection = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\\Database2.mdf;Integrated Security = True;Connect Timeout=30");
             SqlCommand cmd = new SqlCommand("Select * FROM products");
             cmd.Connection = connection;

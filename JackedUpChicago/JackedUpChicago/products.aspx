@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <a href="additems.aspx"><span class="glyphicon glyphicon-plus" ></span></a>
+    
+    <asp:Label ID="lblAdminProductLink" runat="server" Text="Label" Visible="false"><a href="addProducts.aspx"><span class="glyphicon glyphicon-plus" ></span>Add A Product</a></asp:Label>
     <h1>Jacked Up's Coffee Portfolio</h1>
     <h2>It's the best coffee in town.</h2>
 

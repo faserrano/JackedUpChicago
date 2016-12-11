@@ -98,7 +98,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="additems.aspx" />
+    <Content Include="addProducts.aspx" />
     <Content Include="App_Data\Database2.mdf" />
     <Content Include="App_Data\Database2_log.ldf">
       <DependentUpon>Database2.mdf</DependentUpon>
@@ -126,9 +126,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="MasterPage.Master" />
-    <Content Include="Login.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="products.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="logout.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -164,12 +166,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="additems.aspx.cs">
-      <DependentUpon>additems.aspx</DependentUpon>
+    <Compile Include="addProducts.aspx.cs">
+      <DependentUpon>addProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="additems.aspx.designer.cs">
-      <DependentUpon>additems.aspx</DependentUpon>
+    <Compile Include="addProducts.aspx.designer.cs">
+      <DependentUpon>addProducts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cart.aspx.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
@@ -214,12 +216,12 @@
       <DependentUpon>products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -227,6 +229,20 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

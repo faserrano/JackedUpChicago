@@ -11,7 +11,10 @@ namespace JackedUpChicago
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["userFName"] == null)
+            {
+                Response.Redirect("login.aspx");
+            }
         }
     }
 }

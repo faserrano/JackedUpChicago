@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="JackedUpChicago.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="JackedUpChicago.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -8,6 +8,8 @@
     <asp:Label ID="lblPassword" runat="server" Text="Password: "></asp:Label>
     <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
     <br />
-    <asp:Button ID="btnSubmit" runat="server" Text="Submit" autopostback="true" />
+    <asp:Label ID="lblLoginFail" runat="server" Text="ErrorMessage" ForeColor="Red" Visible="false"></asp:Label>
+    <br />
+    <asp:Button ID="btnLogin" runat="server" Text="Login" autopostback="true" OnClick="btnLogin_Click" />
     <br />
 </asp:Content>
