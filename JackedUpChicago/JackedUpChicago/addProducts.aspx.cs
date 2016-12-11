@@ -24,8 +24,9 @@ namespace JackedUpChicago
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void ButtonAddItem_Click(object sender, EventArgs e)
         {
+            string productType = DropDownProductType.SelectedValue;
             string productName = TextBoxName.Text;
             string productDescription = TextBoxDexcription.Text;
             string productSize = TextBoxSize.Text;
@@ -59,20 +60,25 @@ namespace JackedUpChicago
 
 
                         SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True; Connect TimeOut=30;");
-                        SqlCommand cmd = new SqlCommand("INSERT INTO products (product_name, product_description, product_size, product_price, product_image) VALUES('" + productName + "', '" + productDescription + "', '" + productSize + "', " + productPrice + ", '" + productURL +"')");
+                        SqlCommand cmd = new SqlCommand("INSERT INTO products (product_name, product_description, product_size, product_price, product_image, product_type) VALUES('" + productName + "', '" + productDescription + "', '" + productSize + "', " + productPrice + ", '" + productURL + "', '" + productType + "')");
                         cmd.Connection = connection;
                         connection.Open();
                         cmd.ExecuteNonQuery();
                         connection.Close();
+
+                        Label6.Text = "File Uploaded successfully";
+                        
                     }
                     catch (Exception ex)
                     {
                         Label6.Text = ex.Message;
+                        
                     }
                 }
                 else
                 {
                     Label6.Text = "File cannot be uploaded.";
+                    
                 }
 
             }
