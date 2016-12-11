@@ -47,13 +47,17 @@ namespace JackedUpChicago
                     cellPrice.Text = reader["product_price"].ToString();
                     string url = reader["product_image"].ToString();
 
+                    HyperLink h1 = new HyperLink();
+                    h1.NavigateUrl = "productdescription.aspx";
+                    h1.Text = cellName.Text.ToString();
+ 
                     Image ProductImage = new Image();
                     ProductImage.ImageUrl = url;
                     ProductImage.Width = 100;
                     ProductImage.Height = 100;
 
                     cellImage.Controls.Add(ProductImage);
-
+                    cellName.Controls.Add(h1);
                     row.Cells.Add(cellImage);
                     row.Cells.Add(cellName);
                     row.Cells.Add(cellDescription);

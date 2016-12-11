@@ -25,7 +25,7 @@
             <asp:BoundField DataField="product_description" HeaderText="product_description" SortExpression="product_description" />
             <asp:BoundField DataField="product_size" HeaderText="product_size" SortExpression="product_size" />
             <asp:BoundField DataField="product_price" HeaderText="product_price" SortExpression="product_price" />
-            <asp:BoundField DataField="product_image" HeaderText="product_image" SortExpression="product_image" />
+            <asp:HyperLinkField DataNavigateUrlFields="product_image" DataNavigateUrlFormatString="Cart.aspx" DataTextField="product_image" HeaderText="product_image" SortExpression="product_image" />
 
         </Columns>
     </asp:GridView>

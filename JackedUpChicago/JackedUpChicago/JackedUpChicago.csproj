@@ -127,6 +127,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="MasterPage.Master" />
     <Content Include="login.aspx" />
+    <Content Include="productdescription.aspx" />
     <Content Include="products.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="AboutUs.aspx" />
@@ -207,6 +208,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="productdescription.aspx.cs">
+      <DependentUpon>productdescription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productdescription.aspx.designer.cs">
+      <DependentUpon>productdescription.aspx</DependentUpon>
     </Compile>
     <Compile Include="products.aspx.cs">
       <DependentUpon>products.aspx</DependentUpon>
