@@ -5,7 +5,7 @@
 <head runat="server">
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="Content/JackedUpTheme.css" rel="stylesheet" />
+    <link href="Content/NewJackedUpTheme.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
