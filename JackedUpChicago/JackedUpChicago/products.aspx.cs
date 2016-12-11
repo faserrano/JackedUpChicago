@@ -37,12 +37,9 @@ namespace JackedUpChicago
                     TableRow row = new TableRow();
                     TableCell cellImage = new TableCell();
                     TableCell cellName = new TableCell();
-                    TableCell cellSize = new TableCell();
-                    TableCell cellPrice = new TableCell();
 
-                    cellName.Text = reader["product_name"].ToString();
-                    cellSize.Text = reader["product_size"].ToString();
-                    cellPrice.Text = reader["product_price"].ToString();
+
+                    cellName.Text = reader["product_name"].ToString();           
                     string url = reader["product_image"].ToString();
 
                     HyperLink h1 = new HyperLink();
@@ -51,15 +48,14 @@ namespace JackedUpChicago
  
                     Image ProductImage = new Image();
                     ProductImage.ImageUrl = url;
-                    ProductImage.Width = 100;
-                    ProductImage.Height = 100;
+                    ProductImage.Width = 200;
+                    ProductImage.Height = 200;
 
                     cellImage.Controls.Add(ProductImage);
                     cellName.Controls.Add(h1);
                     row.Cells.Add(cellImage);
                     row.Cells.Add(cellName);
-                    row.Cells.Add(cellSize);
-                    row.Cells.Add(cellPrice);
+                   
 
                     Table1.Rows.Add(row);
 

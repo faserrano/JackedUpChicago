@@ -10,10 +10,9 @@
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' SelectCommand="SELECT [product_name], [product_description], [product_image], [product_price], [product_size] FROM [products]"></asp:SqlDataSource>
    <asp:Table ID="Table1" runat="server">
         <asp:TableRow>
-            <asp:TableHeaderCell>Image</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Product Name</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Size</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Price</asp:TableHeaderCell>
+            <asp:TableHeaderCell></asp:TableHeaderCell>
+            <asp:TableHeaderCell>Name:</asp:TableHeaderCell>
+            
         </asp:TableRow>
     </asp:Table>
 

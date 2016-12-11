@@ -53,8 +53,8 @@ namespace JackedUpChicago
 
                     Image ProductImage = new Image();
                     ProductImage.ImageUrl = url;
-                    ProductImage.Width = 100;
-                    ProductImage.Height = 100;
+                    ProductImage.Width = 200;
+                    ProductImage.Height = 200;
 
                     cellImage.Controls.Add(ProductImage);
 
