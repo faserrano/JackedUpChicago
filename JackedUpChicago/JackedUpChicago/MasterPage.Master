@@ -21,7 +21,6 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="HomePage.aspx">Jacked Up Chicago</a>
             </div>
-
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="HomePage.aspx">Home</a></li>
                 <li><a href="products.aspx">Coffee</a></li>
@@ -32,7 +31,14 @@
                 <li><a href="cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
             </ul>
         </div>
-
+        <div class="container-fluid">            
+            <ul class="nav navbar-nav">
+                <li><a href="HomePage.aspx">Home</a></li>
+                <li><a href="products.aspx">Coffee</a></li>
+                <li><a href="Equipment.aspx">Equipment</a></li>
+                <li><a href="AboutUs.aspx">About Us</a></li>
+            </ul>
+        </div>
         </nav>
         <asp:Image ID="Imagecoffeebeans" runat="server" ImageUrl="Images/cbeans.png" Width="100%" Height="400px"/>
 </div>
