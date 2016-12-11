@@ -114,6 +114,9 @@
     <Content Include="Images\cbean2.png" />
     <Content Include="Images\cbeans.png" />
     <Content Include="Content\newJackedUpTheme.css" />
+    <Content Include="Images\chicagoBean.jpg" />
+    <Content Include="Images\coffeeBeans.jpg" />
+    <Content Include="Images\coffeeGrinders.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

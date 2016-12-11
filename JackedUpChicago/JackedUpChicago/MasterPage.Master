@@ -9,6 +9,10 @@
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
 </head>
     
 <body>
@@ -53,7 +57,7 @@
 </div>
 
     <div>
-        <div class="container">
+        <div class="container" style="width: 100%" >
             <div class="jumbotron">       
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
      
@@ -72,15 +76,9 @@
         </div>
     </form>
 
-    <script src="Scripts/jquery-3.1.1.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
-    <script src="Scripts/jquery.inputmask/jquery.inputmask.bundle.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.phoneNum').inputmask("(999) 999-9999");  //static mask
-            //$(selector).inputmask({ "mask": "(999) 999-9999" }); //specifying options
-            //$(selector).inputmask("9-a{1,3}9{1,3}"); //mask with dynamic syntax
-        });
-    </script>
+    
+   
+    
+    
 </body>
 </html>
