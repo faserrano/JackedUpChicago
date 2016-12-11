@@ -11,12 +11,12 @@
    <asp:Table ID="Table1" runat="server">
         <asp:TableRow>
             <asp:TableHeaderCell></asp:TableHeaderCell>
-            <asp:TableHeaderCell>Name:</asp:TableHeaderCell>
+            <asp:TableHeaderCell></asp:TableHeaderCell>
             
         </asp:TableRow>
     </asp:Table>
 
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Visible="false" Text="Label"></asp:Label>
   <!-- 
       Won't be using this, right?
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
