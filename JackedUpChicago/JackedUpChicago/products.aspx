@@ -12,14 +12,15 @@
         <asp:TableRow>
             <asp:TableHeaderCell>Image</asp:TableHeaderCell>
             <asp:TableHeaderCell>Product Name</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Description</asp:TableHeaderCell>
             <asp:TableHeaderCell>Size</asp:TableHeaderCell>
             <asp:TableHeaderCell>Price</asp:TableHeaderCell>
         </asp:TableRow>
     </asp:Table>
 
     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-   <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+  <!-- 
+      Won't be using this, right?
+      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
         <Columns>
             <asp:BoundField DataField="product_name" HeaderText="product_name" SortExpression="product_name" />
             <asp:BoundField DataField="product_description" HeaderText="product_description" SortExpression="product_description" />
@@ -28,6 +29,6 @@
             <asp:HyperLinkField DataNavigateUrlFields="product_image" DataNavigateUrlFormatString="Cart.aspx" DataTextField="product_image" HeaderText="product_image" SortExpression="product_image" />
 
         </Columns>
-    </asp:GridView>
+    </asp:GridView>-->
 
 </asp:Content>
