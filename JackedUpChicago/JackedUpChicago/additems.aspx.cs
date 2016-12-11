@@ -26,7 +26,7 @@ namespace JackedUpChicago
             if(Page.IsPostBack)
             {
                 Boolean fileOK = false;
-                String path = Server.MapPath("~/");
+                String path = Server.MapPath("~/Images/");
 
                 if(FileUpload1.HasFile)
                 {
@@ -43,9 +43,11 @@ namespace JackedUpChicago
                 {
                     try
                     {
+                        
                         FileUpload1.PostedFile.SaveAs(path + FileUpload1.FileName);
-                        Image1.ImageUrl = "~/" + FileUpload1.FileName;
-                        productURL = "~/" + FileUpload1.FileName;
+                        Image1.ImageUrl = "~/Images/" + FileUpload1.FileName;
+                        productURL = "~/Images/" + FileUpload1.FileName;
+
 
                         SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True; Connect TimeOut=30;");
                         SqlCommand cmd = new SqlCommand("INSERT INTO products (product_name, product_description, product_size, product_price, product_image) VALUES('" + productName + "', '" + productDescription + "', '" + productSize + "', " + productPrice + ", '" + productURL +"')");

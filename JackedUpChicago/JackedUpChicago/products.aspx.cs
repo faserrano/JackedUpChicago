@@ -15,6 +15,7 @@ namespace JackedUpChicago
             SqlConnection connection = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\\Database2.mdf;Integrated Security = True;Connect Timeout=30");
             SqlCommand cmd = new SqlCommand("Select * FROM products");
             cmd.Connection = connection;
+           
 
             try
             {
@@ -31,7 +32,7 @@ namespace JackedUpChicago
                     TableCell cellPrice = new TableCell();
 
                     cellName.Text = reader["product_name"].ToString();
-                    cellDescription.Text = reader["product_descriprion"].ToString();
+                    cellDescription.Text = reader["product_description"].ToString();
                     cellSize.Text = reader["product_size"].ToString();
                     cellPrice.Text = reader["product_price"].ToString();
                     string url = reader["product_image"].ToString();
