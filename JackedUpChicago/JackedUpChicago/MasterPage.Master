@@ -15,17 +15,30 @@
      
     <form id="form1" runat="server">
         
- <div class="containernav">
+ <div class="containernav" >
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="HomePage.aspx">Jacked Up Chicago</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
+            <asp:Panel ID="panelAnonBar" runat="server" Visible="false" autopostback="true">
+                <ul class="nav navbar-nav navbar-right">
                 <li><a href="Registration.aspx"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-                <li><a href="login.aspx"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                <li><a href="login.aspx"><span class="glyphicon glyphicon-log-in"></span>Log In</a></li>
                 <li><a href="cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
-            </ul>
+                </ul>
+
+            </asp:Panel>
+
+            <asp:Panel ID="panelUserBar" runat="server" Visible="false" autopostback="true">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="logout.aspx"><span class="glyphicon glyphicon-log-out"></span>Log out</a></li>
+                <li><a href="cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                </ul>
+
+            </asp:Panel>
+            
+
         </div>
         <div class="container-fluid">            
             <ul class="nav navbar-nav">

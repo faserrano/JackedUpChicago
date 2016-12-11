@@ -31,6 +31,24 @@ namespace JackedUpChicago {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// panelAnonBar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelAnonBar;
+        
+        /// <summary>
+        /// panelUserBar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panelUserBar;
+        
+        /// <summary>
         /// Imagecoffeebeans control.
         /// </summary>
         /// <remarks>

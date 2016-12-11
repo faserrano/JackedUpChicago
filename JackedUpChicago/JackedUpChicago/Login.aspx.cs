@@ -39,6 +39,7 @@ namespace JackedUpChicago
                     Session["userLName"] = reader["last_name"];
                     Session["userEmail"] = reader["email"];
                     Session["userType"] = reader["user_type"];
+                    
                     Response.Redirect("HomePage.aspx");
                 }
                 else

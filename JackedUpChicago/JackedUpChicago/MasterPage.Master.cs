@@ -12,6 +12,20 @@ namespace JackedUpChicago
         protected void Page_Load(object sender, EventArgs e)
         {
             
+            if (Session["userType"] == null)
+            {
+                
+                panelAnonBar.Visible = true;
+                panelUserBar.Visible = false;
+            }
+            else
+            {
+                panelAnonBar.Visible = false;
+                panelUserBar.Visible = true;
+            }
+            
+            
+            
         }
 
         
