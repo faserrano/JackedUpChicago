@@ -17,7 +17,9 @@
     <asp:Label ID="Label5" runat="server" Text="Item Image: "></asp:Label>
     <asp:FileUpload ID="FileUpload1" runat="server" />
     <br />
-    <asp:Image ID="Image1" runat="server" />
+    <asp:Image ID="Image1" runat="server"/>
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Add Item" />
+    <asp:Button ID="Button1" runat="server" Text="Add Item" OnClick="Button1_Click" />
+
+    <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
 </asp:Content>
