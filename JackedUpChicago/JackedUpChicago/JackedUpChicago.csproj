@@ -109,7 +109,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Equipment.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HomePage.aspx" />
     <Content Include="Images\cbean2.png" />
@@ -130,10 +129,12 @@
     <Content Include="MasterPage.Master" />
     <Content Include="login.aspx" />
     <Content Include="productdescription.aspx" />
-    <Content Include="products.aspx" />
+    <Content Include="Equipment.aspx" />
+    <Content Include="Coffee.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="AboutUs.aspx" />
     <Content Include="logout.aspx" />
+    <Content Include="WebForm6.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -190,13 +191,6 @@
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Equipment.aspx.cs">
-      <DependentUpon>Equipment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Equipment.aspx.designer.cs">
-      <DependentUpon>Equipment.aspx</DependentUpon>
-    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -218,12 +212,19 @@
     <Compile Include="productdescription.aspx.designer.cs">
       <DependentUpon>productdescription.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products.aspx.cs">
-      <DependentUpon>products.aspx</DependentUpon>
+    <Compile Include="Equipment.aspx.cs">
+      <DependentUpon>Equipment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products.aspx.designer.cs">
-      <DependentUpon>products.aspx</DependentUpon>
+    <Compile Include="Equipment.aspx.designer.cs">
+      <DependentUpon>Equipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coffee.aspx.cs">
+      <DependentUpon>Coffee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coffee.aspx.designer.cs">
+      <DependentUpon>Coffee.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="login.aspx.cs">
@@ -253,6 +254,13 @@
     </Compile>
     <Compile Include="logout.aspx.designer.cs">
       <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
