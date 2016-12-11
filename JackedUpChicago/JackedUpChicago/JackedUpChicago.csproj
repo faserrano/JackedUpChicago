@@ -112,6 +112,7 @@
     <Content Include="Equipment.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HomePage.aspx" />
+    <Content Include="Images\cbean2.png" />
     <Content Include="Images\cbeans.png" />
     <Content Include="Content\newJackedUpTheme.css" />
     <Content Include="packages.config" />

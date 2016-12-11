@@ -1,6 +1,11 @@
 ﻿body {
-    background:#a9cfd2;
+    background:#b6efff;
 }
 .containernav{
     margin-top:70px;
+}
+.footer{
+    background:#222;
+    padding-bottom:5px;
+    padding-top:5px;
 }

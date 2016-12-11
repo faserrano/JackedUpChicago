@@ -29,37 +29,32 @@
                 <li><a href="AboutUs.aspx">About Us</a></li>
                 <li><a href="Registration.aspx"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
                 <li><a href="login.aspx"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
-                <li><a href="Cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                <li><a href="cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
             </ul>
         </div>
 
         </nav>
         <asp:Image ID="Imagecoffeebeans" runat="server" ImageUrl="Images/cbeans.png" Width="100%" Height="400px"/>
-    
 </div>
-            
-        
-
-
-
 
     <div>
         <div class="container">
-            <div class="jumbotron">
-        
+            <div class="jumbotron">       
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-            
-        
-        
-        
-            
-        
+     
         </asp:ContentPlaceHolder>
             </div>
         </div>
     </div>
+    <div class="containerfooter">
+    <asp:Image ID="Image1" runat="server" ImageUrl="Images/cbean2.png" Width="100%" Height="400px"/>
 
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; 2016    |    Designed by Jason and Frank    |    <a href="HomePage.aspx">Jacked Up Chicago</a>    |   Chicago, Il. </span>
+        </div>
+    </footer>
+        </div>
     </form>
 
     <script src="Scripts/jquery-3.1.1.js"></script>
