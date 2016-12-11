@@ -6,7 +6,7 @@
     <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></p>
     <br />
     <p><asp:Label ID="lblPassword" runat="server" Text="Password: "></asp:Label>
-    <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></p>
+    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox></p>
     <br />
     <asp:Label ID="lblLoginFail" runat="server" Text="ErrorMessage" ForeColor="Red" Visible="false"></asp:Label>
     <br />
