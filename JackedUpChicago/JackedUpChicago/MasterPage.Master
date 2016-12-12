@@ -36,6 +36,7 @@
 
             <asp:Panel ID="panelUserBar" runat="server" Visible="false" autopostback="true">
                 <ul class="nav navbar-nav navbar-right">
+                <li><a href="Profile.aspx"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
                 <li><a href="logout.aspx"><span class="glyphicon glyphicon-log-out"></span>Log out</a></li>
                 <li><a href="cart.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
                 </ul>
