@@ -49,7 +49,8 @@ namespace JackedUpChicago
                 }
             } catch (Exception err)
             {
-                Response.Write(err);
+                lblLoginFail.Text = err.ToString();
+                lblLoginFail.Visible = true;
             }
         }
     }

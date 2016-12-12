@@ -15,7 +15,7 @@
 
         <p><asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
         <asp:TextBox ID="txtEmail" runat="server" TextMode="Email"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLName" ErrorMessage="Field is required." ForeColor="Red"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="reqValEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Field is required." ForeColor="Red"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="regExpEmail" runat="server" ErrorMessage="You have not entered a vaild email address." ForeColor="Red" ControlToValidate="txtEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
         </p>
 
