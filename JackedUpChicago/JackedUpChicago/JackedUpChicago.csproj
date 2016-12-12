@@ -103,7 +103,6 @@
     <Content Include="App_Data\Database2_log.ldf">
       <DependentUpon>Database2.mdf</DependentUpon>
     </Content>
-    <Content Include="Cart.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -185,13 +184,6 @@
     </Compile>
     <Compile Include="addProducts.aspx.designer.cs">
       <DependentUpon>addProducts.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Cart.aspx.cs">
-      <DependentUpon>Cart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cart.aspx.designer.cs">
-      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

@@ -9,6 +9,8 @@
     <br />
     <asp:Label ID="Label5" runat="server" Text="Label" Visible="false"></asp:Label>
 
+    <br />
+
     <p><asp:Label ID="Label1" runat="server" Text="Name: "></asp:Label>
     <asp:TextBox ID="TextBoxName" runat="server"></asp:TextBox></p>
     <asp:RequiredFieldValidator ID="reqValUserName" runat="server" ControlToValidate="TextBoxName" ErrorMessage="Field is required." ForeColor="Red"></asp:RequiredFieldValidator>

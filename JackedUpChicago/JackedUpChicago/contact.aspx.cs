@@ -16,9 +16,9 @@ namespace JackedUpChicago
         }
         protected void SendMail()
         {
-            var fromAddress = "jasonandfrank12@gmail.com";
-            var toAddress = TextBoxEmail.Text.ToString();
-            const string fromPassword = "jasonandfrank";
+            var fromAddress = TextBoxEmail.Text.ToString();
+            var toAddress = "jackedupchicago@gmail.com";
+            const string fromPassword = "jackedup";
 
             string yourName = TextBoxName.Text.ToString();
             string yourPhone = TextBoxPhone.Text.ToString();
@@ -34,7 +34,7 @@ namespace JackedUpChicago
                 smtp.Port = 587;
                 smtp.EnableSsl = true;
                 smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
-                smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
+                smtp.Credentials = new NetworkCredential(toAddress, fromPassword);
                 smtp.Timeout = 20000;
             }
             smtp.Send(fromAddress, toAddress, yourSubject, body);
