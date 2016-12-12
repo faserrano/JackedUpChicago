@@ -12,6 +12,12 @@ namespace JackedUpChicago
         protected void Page_Load(object sender, EventArgs e)
         {
             
+            HttpContext context = HttpContext.Current;
+            if(context.Request.Cookies["user"] != null)
+            {
+                string welcome = context.Request.Cookies["user"]["username"].ToString();
+                Label1.Text = "Welcome back " + welcome + "!"; 
+            }
         }
     }
 }

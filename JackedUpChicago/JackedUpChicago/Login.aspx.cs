@@ -17,6 +17,9 @@ namespace JackedUpChicago
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+            Response.Cookies["user"]["username"] = txtUsername.Text.ToString();
+            Response.Cookies["user"].Expires = DateTime.Now.AddDays(1d);
+
             SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE email = '" +  txtUsername.Text  + "'");
             cmd.Connection = connection;

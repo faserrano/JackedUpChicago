@@ -117,6 +117,8 @@
     <Content Include="Images\chicagoBean.jpg" />
     <Content Include="Images\coffeeBeans.jpg" />
     <Content Include="Images\coffeeGrinders.jpg" />
+    <Content Include="Images\Mark.JPG" />
+    <Content Include="Images\Steve.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

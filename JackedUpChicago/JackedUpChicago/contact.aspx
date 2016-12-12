@@ -2,7 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="container">
+    <div class="col-md-6">
 
+    <h1>Contact Us:</h1>
+    <br />
     <asp:Label ID="Label5" runat="server" Text="Label" Visible="false"></asp:Label>
 
     <p><asp:Label ID="Label1" runat="server" Text="Name: "></asp:Label>
@@ -36,7 +40,10 @@
 
     <br /><br />
     <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
-
-    
+    </div>
+    <div class="col-md-6">
+        <asp:Image ID="Image1" runat="server" ImageUrl="Images/Mark.JPG" Width ="400px" />
+    </div>
+    </div>
 
 </asp:Content>

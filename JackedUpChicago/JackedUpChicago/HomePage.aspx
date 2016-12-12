@@ -5,8 +5,13 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2 class="text-center">Welcome to Jacked Up Chicago!</h2>
+
+   
     
+
+    <h1 class="text-center">Welcome to Jacked Up Chicago!</h1>
+    <br /><br />
+    <h3><asp:Label ID="Label1" runat="server" Text="Label" ></asp:Label></h3>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
