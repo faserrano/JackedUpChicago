@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      
+        <h2>Register:</h2>
         <p><asp:Label ID="lblFName" runat="server" Text="First Name:"></asp:Label>
         <asp:TextBox ID="txtFName" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="reqValFName" runat="server" ControlToValidate="txtFName" ErrorMessage="Field is required." ForeColor="Red" ></asp:RequiredFieldValidator>

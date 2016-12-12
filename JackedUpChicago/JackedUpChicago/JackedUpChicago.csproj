@@ -109,6 +109,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="deleteprofile.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="HomePage.aspx" />
     <Content Include="Images\cbean2.png" />
@@ -116,8 +117,11 @@
     <Content Include="Content\newJackedUpTheme.css" />
     <Content Include="Images\chicagoBean.jpg" />
     <Content Include="Images\coffeeBeans.jpg" />
+    <Content Include="Images\coffeecup.png" />
     <Content Include="Images\coffeeGrinders.jpg" />
+    <Content Include="Images\coffeemap.png" />
     <Content Include="Images\Mark.JPG" />
+    <Content Include="Images\percolator.png" />
     <Content Include="Images\Steve.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -195,6 +199,13 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deleteprofile.aspx.cs">
+      <DependentUpon>deleteprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteprofile.aspx.designer.cs">
+      <DependentUpon>deleteprofile.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

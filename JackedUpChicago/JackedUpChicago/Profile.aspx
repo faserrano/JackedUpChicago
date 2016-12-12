@@ -20,7 +20,6 @@
     <asp:Label ID="lblError" runat="server" Text=""></asp:Label>
     <br />
     <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-
-    
-
+    <br /><br />
+    <p>To delete your profile, please click <a href="deleteprofile.aspx">here.</a></p>
 </asp:Content>
