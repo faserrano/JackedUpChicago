@@ -75,7 +75,6 @@
                             <asp:MenuItem NavigateUrl="~/productdescription.aspx" Text="Product Description" Value="Product Description"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/Equipment.aspx" Text="Equipment" Value="Equipment">
-                            <asp:MenuItem NavigateUrl="~/productdescription.aspx" Text="Product Description" Value="Product Description"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/addProducts.aspx" Text="Add Products" Value="Add Products"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/Registration.aspx" Text="Register" Value="Register">
@@ -84,6 +83,7 @@
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
+                <br />
             </div>
         </div>
     </div>
