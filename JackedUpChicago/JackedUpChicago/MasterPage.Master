@@ -62,7 +62,10 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
      
         </asp:ContentPlaceHolder>
-                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                
+                <br />
+            </div>
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Home" Value="Home"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/AboutUs.aspx" Text="About Us" Value="About Us">
@@ -83,8 +86,6 @@
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
-                <br />
-            </div>
         </div>
     </div>
     <div class="containerfooter">
